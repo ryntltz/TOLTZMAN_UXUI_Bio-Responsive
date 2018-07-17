@@ -1,0 +1,52 @@
+.nav-link{
+    color: slategray;
+}
+.jumbo-custom{
+    background-color: #e1e2e2;
+}
+.space-em{
+    margin: 10px;
+}
+.block{
+    background-color: #e1e2e2;
+}
+footer{
+    background-color: #e1e2e2;
+    padding: 10px;
+}
+a{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+h2,h5{
+    font-family: 'Work Sans', sans-serif;
+}
+@media only screen and (max-width: 575px){
+    .jumbo{
+        font-size: 40px;
+    }
+    .lead{
+        font-size: 20px;
+    }
+    #experience{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .jumbo{
+        font-size:30px;
+    }
+    .lead{
+        font-size: 18px;
+    }
+    .nav{
+        display: none;
+    }
+
+}
